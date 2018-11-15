@@ -1,9 +1,3 @@
-<!--
- * This Divi child theme file modifies Divi Theme v2.3.1 footer links starting at line 45 below.
- * Author:   David Tierney http://designsbytierney.com
- * Creation date March 5, 2015
--->
-
     <?php if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 
 	<span class="et_pb_scroll_top et-pb-icon"></span>
@@ -43,7 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					}
 				?>
 
-						<p id="footer-info">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><!-- | <em>Website by <a target="_blank" title="Napa Web Designer" href="http://designsbytierney.com">David Tierney</a></em>--></p>
+						<p id="footer-info">Copyright &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
